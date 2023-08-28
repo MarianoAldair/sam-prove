@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./img.component.css']
 })
 export class ImgComponent {
-  @Input() img: string = '';
+  @Input() img = '';
 }
