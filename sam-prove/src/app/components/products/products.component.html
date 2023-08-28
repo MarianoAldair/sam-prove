@@ -1,0 +1,4 @@
+<p>Unidades en carrito: {{ productsToCart.length }}. Total a abonar: {{ totalToPay | currency: 'AR$'}} </p>
+<div class="products-layout">
+  <app-product  [product]="product" *ngFor="let product of products;" (addedProduct)="addedProduct($event)"></app-product>
+</div>
