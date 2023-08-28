@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/sam-prove",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
